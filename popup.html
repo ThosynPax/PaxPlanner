@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>PaxPlanner</title>
+</head>
+<body>
+  <div class="todo-container">
+    <header>
+      <h1>Pax Planner</h1>
+      <button id="theme-toggle">
+        <i class="fas fa-moon"></i>
+      </button>
+    </header>
+    <div class="search-section">
+      <input type="text" placeholder="Search note..." id="search-bar">
+      <button class="filter-btn"><i class="fas fa-filter"></i> ALL</button>
+      <button class="refresh-btn"><i class="fas fa-sync-alt"></i></button>
+    </div>
+    <ul id="todo-list">
+      <!-- Tasks will appear here -->
+    </ul>
+    <footer>
+      <input type="text" id="new-task-input" placeholder="Add a new task...">
+      <button id="add-task"><i class="fas fa-plus"></i></button>
+    </footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

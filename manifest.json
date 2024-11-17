@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Pax Planner",
+    "version": "1.0.0",
+    "description": "A simple to-do list Chrome extension.",
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": ["storage"]
+  }
+  
